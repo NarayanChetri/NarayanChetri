@@ -1,10 +1,10 @@
-<h2 align="left">Welcome to my github 🦊</h2>
+<h2 align="left">Glad You Found Me!</h2>
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <img src="https://github-readme-stats.vercel.app/api?username=NarayanChetri&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" />
   
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=NarayanChetri&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph" />
 </div>
-<h3> Languages & Tools </h3>
+<h4> Languages & Tools </h4>
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo" style="pointer-events: none;" />
   <img width="12" />
@@ -28,7 +28,7 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="30" alt="firebase logo" style="pointer-events: none;" />
 </div>
-<h3> Connect with Me </h3>
+<h4> Connect with Me </h4>
 <div align="left">
   <a href="https://www.youtube.com/@naarudecode" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="youtube logo" />
