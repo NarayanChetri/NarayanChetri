@@ -1,0 +1,46 @@
+name: Update profile card
+
+on:
+  schedule:
+    # 00:00 and 12:00 UTC = twice a day
+    - cron: "0 0,12 * * *"
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "config.json"
+      - "ascii-art.svg"
+      - "scripts/generate_card.py"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate profile-card.svg
+        env:
+          # Optional: add a repo secret named GH_TOKEN (classic PAT, scopes:
+          # public_repo, read:user) for a higher API rate limit. Works fine
+          # without it too, just closer to the unauthenticated 60 req/hr cap.
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: python3 scripts/generate_card.py
+
+      - name: Commit changes if anything updated
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile-card.svg stats.svg stats-cache.json
+          git diff --cached --quiet || git commit -m "chore: refresh profile stats [skip ci]"
+          git push
