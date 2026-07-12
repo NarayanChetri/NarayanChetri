@@ -1,0 +1,11 @@
+{
+  "display_name": "narayan",
+  "github_login": "NarayanChetri",
+  "dob": "2003-08-08",
+  "os": "Android 14, Windows 11, Arch Linux",
+  "languages_programming": "Kotlin, Java, Python, JavaScript",
+  "focus": "Android Dev, Open Source, Browser Extensions",
+  "github_link": "github.com/NarayanChetri",
+  "exclude_dirs": ["node_modules", "vendor", "dist", "build", ".venv"],
+  "exclude_files": ["package-lock.json", "yarn.lock", "*.min.js", "*.min.css"]
+}
