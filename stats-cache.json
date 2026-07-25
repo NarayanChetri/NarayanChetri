@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T13:22:02.215978+00:00",
+  "updated_at": "2026-07-25T01:58:48.792509+00:00",
   "profile": {
     "login": "NarayanChetri",
     "id": 107901367,
@@ -413,8 +413,8 @@
       "releases_url": "https://api.github.com/repos/NarayanChetri/NarayanChetri/releases{/id}",
       "deployments_url": "https://api.github.com/repos/NarayanChetri/NarayanChetri/deployments",
       "created_at": "2025-02-07T07:38:36Z",
-      "updated_at": "2026-07-24T01:59:26Z",
-      "pushed_at": "2026-07-24T02:51:39Z",
+      "updated_at": "2026-07-24T13:23:33Z",
+      "pushed_at": "2026-07-24T13:49:24Z",
       "git_url": "git://github.com/NarayanChetri/NarayanChetri.git",
       "ssh_url": "git@github.com:NarayanChetri/NarayanChetri.git",
       "clone_url": "https://github.com/NarayanChetri/NarayanChetri.git",
@@ -831,16 +831,16 @@
       "releases_url": "https://api.github.com/repos/NarayanChetri/ROSE/releases{/id}",
       "deployments_url": "https://api.github.com/repos/NarayanChetri/ROSE/deployments",
       "created_at": "2026-07-11T17:50:16Z",
-      "updated_at": "2026-07-22T06:40:32Z",
-      "pushed_at": "2026-07-22T06:40:07Z",
+      "updated_at": "2026-07-25T01:08:01Z",
+      "pushed_at": "2026-07-24T16:48:23Z",
       "git_url": "git://github.com/NarayanChetri/ROSE.git",
       "ssh_url": "git@github.com:NarayanChetri/ROSE.git",
       "clone_url": "https://github.com/NarayanChetri/ROSE.git",
       "svn_url": "https://github.com/NarayanChetri/ROSE",
       "homepage": null,
-      "size": 3630,
-      "stargazers_count": 0,
-      "watchers_count": 0,
+      "size": 3645,
+      "stargazers_count": 2,
+      "watchers_count": 2,
       "language": "Kotlin",
       "has_issues": true,
       "has_projects": true,
@@ -869,7 +869,7 @@
       "visibility": "public",
       "forks": 0,
       "open_issues": 0,
-      "watchers": 0,
+      "watchers": 2,
       "default_branch": "main"
     },
     {
@@ -976,10 +976,10 @@
       "default_branch": "main"
     }
   ],
-  "star_total": 0,
-  "own_commits": 179,
-  "own_add": 33839,
-  "own_del": 10068,
+  "star_total": 2,
+  "own_commits": 181,
+  "own_add": 35117,
+  "own_del": 10387,
   "ext_pr_count": 2,
   "ext_add": 2385,
   "ext_del": 54
